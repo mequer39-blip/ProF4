@@ -1,9 +1,7 @@
 """
-ARCHIVO: control_sistema.py
-PROPÓSITO:
-    Coordinar el funcionamiento general del sistema.
-    Mantiene clientes, servicios y reservas en listas internas.
-    También registra eventos y errores en un archivo de texto (log).
+control_sistema: Coordinar el funcionamiento general del sistema.
+Mantiene clientes, servicios y reservas en listas internas.
+También registra eventos y errores en un archivo de texto (log).
 """
 
 import logging
