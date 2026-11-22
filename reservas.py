@@ -1,8 +1,6 @@
 """
-ARCHIVO: reservas.py
-PROPÓSITO:
-    Representar una reserva que relaciona un cliente con un servicio.
-    Controla la duración, el costo y los estados de la reserva.
+Reservas: Representar una reserva que relaciona un cliente con un servicio.
+Controla la duración, el costo y los estados de la reserva.
 """
 
 from datetime import datetime
