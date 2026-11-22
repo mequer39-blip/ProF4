@@ -1,9 +1,7 @@
 """
-ARCHIVO: excepciones.py
-PROPÓSITO:
-    Definir errores propios del proyecto Software FJ.
-    Estas excepciones permiten identificar qué tipo de problema ocurrió
-    y mostrar mensajes claros sin cerrar inesperadamente la aplicación.
+Excepciones: Definir errores propios del proyecto Software FJ.
+Estas excepciones permiten identificar qué tipo de problema ocurrió
+y mostrar mensajes claros sin cerrar inesperadamente la aplicación.
 """
 
 # Excepción general: las excepciones específicas del proyecto heredan de esta.
