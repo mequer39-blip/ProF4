@@ -1,9 +1,7 @@
-"""
-ARCHIVO: clientes.py
-PROPÓSITO:
-    Definir la clase Cliente.
-    Esta clase hereda de Entidad y protege los datos personales mediante
-    propiedades. Cada propiedad valida la información antes de guardarla.
+""" 
+Clientes: Definir la clase Cliente.
+Esta clase hereda de Entidad y protege los datos personales mediante
+propiedades. Cada propiedad valida la información antes de guardarla.
 """
 
 import re
