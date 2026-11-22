@@ -1,11 +1,8 @@
 """
-ARCHIVO: servicios.py
-PROPÓSITO:
-    Definir la clase abstracta Servicio y tres clases especializadas:
-    ReservaSala, AlquilerEquipo y Asesoria.
-
-    Cada servicio calcula el costo y valida sus parámetros de manera distinta.
-    Esto demuestra herencia y polimorfismo.
+Servicios:Definir la clase abstracta Servicio y tres clases especializadas:
+ReservaSala, AlquilerEquipo y Asesoria.
+Cada servicio calcula el costo y valida sus parámetros de manera distinta.
+Esto demuestra herencia y polimorfismo.
 """
 
 from abc import abstractmethod
@@ -134,9 +131,3 @@ class Asesoria(Servicio):
             raise DatosInvalidosError("Las horas deben ser mayores que cero.")
         subtotal = self.tarifa_base * horas
         return self._aplicar_impuestos_descuento(subtotal, impuesto, descuento)
-
-
-# IMPORTANTE SOBRE LA SOBRECARGA:
-# Python no permite declarar varias funciones con el mismo nombre y distintas
-# firmas como otros lenguajes. Aquí se ofrecen variantes mediante parámetros
-# opcionales: impuesto, descuento, unidades o personas, según el servicio.
