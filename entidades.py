@@ -1,10 +1,8 @@
-"""
-ARCHIVO: entidades.py
-PROPÓSITO:
-    Crear la clase abstracta Entidad.
-    Una entidad es cualquier elemento del sistema que necesita identificador.
-    Se usa abstracción porque no se crearán objetos Entidad directamente:
-    las clases concretas deberán heredar de ella e implementar describir().
+""" 
+Entidades: Crear la clase abstracta Entidad.
+Una entidad es cualquier elemento del sistema que necesita identificador.
+Se usa abstracción porque no se crearán objetos Entidad directamente:
+las clases concretas deberán heredar de ella e implementar describir().
 """
 
 from abc import ABC, abstractmethod
