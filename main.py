@@ -1,9 +1,7 @@
 """
-ARCHIVO: main.py
-PROPÓSITO:
-    Punto de entrada del programa.
-    Presenta el menú, recibe información del usuario y llama a las clases
-    encargadas de realizar cada operación.
+main: Punto de entrada del programa.
+Presenta el menú, recibe información del usuario y llama a las clases
+encargadas de realizar cada operación.
 """
 
 import logging
